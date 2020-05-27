@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+body {
+   font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+header{
+    display: inline;
+    width: 100%;
+}
+ 
+
+.main {
+    padding: 20px;
+    overflow: auto;
+    background-image: url(bgwebdota2.jpg);
+    height: auto;
+    
+}
+h1 {
+   color: #00a2c6
+}
+
+h2 {
+   color: #00a2c6
+    
+}
+ 
+h3 {
+   color: #00a2c6
+}
+
+p{
+    color: #00a2c6
+}
+
+#container h2{
+    text-align: center;
+}
+
+.Hcard h2 {
+    color: red;
+    text-align: center;
+}
+.Hcard p {
+    text-align: justify;
+    padding: 5px;
+    margin-top: -5px;
+}
+#content{
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-top: 30px;
+    
+}
+aside{
+    margin-top: 30px;
+    float: right;
+    width: 30%;
+}
+aside > .Hcard2{
+    width: 345px;
+    height: auto;
+    margin: 5;
+}
+aside > .img-desc2{
+    width: 10px;
+}
+.idcarddev{
+    padding-top: 1px;
+    width: 300px;
+    height: 380px;
+    margin: 20px;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+.idcarddev > img {
+    margin-top: -5px;
+    height: 210px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+}
+.idcarddev p{
+    text-align: left;
+    margin: 0;
+    padding-left: 40px;
+}
+.idcarddev h2{
+    text-align: left;
+}
+.asidecont1{
+    width: 300px;
+    height: 60px;
+    margin: 20px;
+    background-color: black
+}
+.asidecont1 p{
+    padding: 10px;
+    text-align: center;
+}
+
+.hdrdota {
+    background-color: black;
+    width: 17%;
+    float: left;
+    height: 70px;
+    opacity: 0.95;
+}
+.hdrdota2 {
+    height: 70px;
+    background-color: black;
+    width: 83%;
+    float: right;
+    opacity: 0.95;
+}
+.hdrdota > img{
+    width: auto;
+    height: 70px;
+    margin-left: 20px;
+}
+p1 {
+    color: grey;
+    text-align: justify;
+}
+nav {
+    margin-top: 8px;
+    margin-right: 350px;;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+a:hover{
+    opacity: 0.5;
+}
+nav ul li{
+    display: inline;
+    margin-left: 5px;
+    color: black;
+    padding-left: 20px;
+}
+#container{
+    background-color: #27282d;
+    padding: 10px;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: black;
+
+}
+footer > p{
+    text-align: center;
+}
+.img-desc{
+    width: 400px;
+    height: 300px;
+    padding: 2px;
+}
+
+.Hcard {
+   display: inline-block;
+    width: 400px;
+    height: 720px;
+    background-color: black;
+    margin: 5px;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+/*---------mobile version---------*/
+@media screen and (max-width: 1000px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 50%;
+        height: 200px;
+    }
+    .main {
+       width: 100%;
+       padding: 0;
+   }
+    nav  {
+        display: inline;
+        width: 100%;
+        padding: 0;
+       
+        font-size: 2px;
+    
+    }
+    nav a{
+      
+      color: white;
+    }
+    nav li{
+        vertical-align:middle; 
+        line-height: 50px;
+         text-align:center;
+        
+    }
+    nav ul li {
+        padding: 0;
+    
+    }
+    
+    .hdrdota {
+        float: left;
+        width: 31%;
+        background-color: black;
+        height: 50px;
+    }
+    .hdrdota > img{
+        margin: 0;
+        width: 150;
+        height: 50px;
+        background-image: url(hdrwebmini.jpg) no-repeat;
+    }
+    .hdrdota2 {
+        height: 50px;
+        float: right;
+        width: 69%;
+        background-color: black;
+      
+    }
+    .poslist {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        margin-left: -20px;
+    }
+    dotahead {
+       height: 50px;
+    }
+    
+    #content{
+        width: 100%;
+    }
+    
+    .Hcard{
+       margin: 30px;
+        
+    }
+    .idcarddev{
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 235px;
+    }
+    .asidecont1{
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+    }
+    .asidecont1 p{
+        padding: 0;
+    }
+    .idcarddev > img {
+        float: left;
+        height: auto;
+        width: 200px;
+        padding: 20px;
+        margin-top: 2px;
+        margin-left: 15px;
+    }
+    .idcarddev p{
+        margin-left: 100px;
+    }
+    .idcarddev h2{
+        float: right;
+        margin-right: 162px;
+    }
+    .cardcont{
+        margin-top: 50px;
+    }
+    #container{
+        width: 100%;
+    }
+    iframe{
+        height: 300px;
+    }
+    aside {
+        width: 100%;
+        display: block;
+        border-top: 5px solid red;
+    }
+   
+}
